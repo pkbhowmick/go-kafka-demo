@@ -1,12 +1,3 @@
-# go-kafka-demo
-
-### Installation
-
-- Run zookeeper and kafka docker image and expose kafka port externally.
-
-docker-compose.yaml
-
-```yaml
 version: "2"
 
 services:
@@ -39,10 +30,3 @@ volumes:
     driver: local
   kafka_data:
     driver: local
-
-```
-
-
-```bash
-$ docker-compose up -d
-```
